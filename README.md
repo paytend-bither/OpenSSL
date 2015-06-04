@@ -30,3 +30,4 @@ pod 'OpenSSL-Universal', :git => 'https://github.com/bruceyibin/OpenSSL.git', :b
 **Authors**
 
 [Bruce Yee / Yi Bin](https://twitter.com/yiibin)
+[Marcin Krzyżanowski](https://twitter.com/krzyzanowskim)
