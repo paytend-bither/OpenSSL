@@ -24,9 +24,11 @@ pod 'OpenSSL-Universal', '1.0.1.k'
 Or always latest version
 
 ````
-pod 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :branch => :master
+pod 'OpenSSL-Universal', :git => 'https://github.com/bruceyibin/OpenSSL.git', :branch => :master
 ````
 
 **Authors**
+
+[Bruce Yee / Yi Bin](https://twitter.com/yiibin)
 
 [Marcin Krzyżanowski](https://twitter.com/krzyzanowskim)
