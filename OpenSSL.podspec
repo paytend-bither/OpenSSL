@@ -1,1 +1,1 @@
-OpenSSL-Universal.podspec
+OpenSSL-Static.podspec
