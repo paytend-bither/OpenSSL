@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "OpenSSL-Static"
-  s.version      = "1.0.2.c"
-  s.summary      = "OpenSSL for iOS and OS X"
+  s.version      = "1.0.2.c1"
+  s.summary      = "OpenSSL Static Libraries and CocoaPod for iOS and OSX"
   s.description  = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support. Supports OSX and iOS including Simulator (armv7, armv7s, arm64, i386, x86_64)."
   s.homepage     = "https://github.com/bruceyibin/OpenSSL"
   s.social_media_url = "https://twitter.com/yiibin"
