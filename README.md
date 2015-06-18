@@ -1,7 +1,7 @@
 OpenSSL-Static
 =======
 
-[![CocoaPods Version](https://img.shields.io/cocoapods/v/OpenSSL.svg?style=flat)][cocoadocs]
+![CocoaPods Version](https://img.shields.io/cocoapods/v/OpenSSL.svg?style=flat)
 
 OpenSSL CocoaPod for iOS and OSX. Complete solution to OpenSSL on iOS and OSX. Package came with precompiled libraries, and include script to build newer version if necessary.
 
