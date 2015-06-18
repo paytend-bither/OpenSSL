@@ -1,10 +1,9 @@
 OpenSSL-Static
 =======
 
-![CocoaPods Version](https://img.shields.io/cocoapods/v/OpenSSL.svg?style=flat)
-![License](https://img.shields.io/cocoapods/l/OpenSSL.svg?style=flat)
-![Platform](https://img.shields.io/cocoapods/p/OpenSSL.svg?style=flat)
-![love](https://img.shields.io/badge/made%20with-%3C3-orange.svg)
+[![CocoaPods Version](https://img.shields.io/cocoapods/v/OpenSSL.svg?style=flat)](http://cocoadocs.org/docsets/OpenSSL-Static/)
+[![License](https://img.shields.io/cocoapods/l/OpenSSL.svg?style=flat)](http://cocoadocs.org/docsets/OpenSSL-Static/)
+[![Platform](https://img.shields.io/cocoapods/p/OpenSSL.svg?style=flat)](http://cocoadocs.org/docsets/OpenSSL-Static/)
 
 OpenSSL CocoaPod for iOS and OSX. Complete solution to OpenSSL on iOS and OSX. Package came with precompiled libraries, and include script to build newer version if necessary.
 
