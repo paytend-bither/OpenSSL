@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "OpenSSL-Static"
-  s.version      = "1.0.2.c1"
+  s.version      = "1.0.2.d"
   s.summary      = "OpenSSL Static Libraries and CocoaPod for iOS and OSX"
-  s.description  = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support. Supports OSX and iOS including Simulator (armv7, armv7s, arm64, i386, x86_64)."
+  s.description  = "OpenSSL is an SSL/TLS and Crypto toolkit. Deprecated in Mac OS and gone in iOS, this spec gives your project non-deprecated OpenSSL support. Supports OSX and iOS including Simulator (armv7, arm64, i386, x86_64)."
   s.homepage     = "https://github.com/bruceyibin/OpenSSL"
   s.social_media_url = "https://twitter.com/yiibin"
   s.license	     = { :type => 'OpenSSL (OpenSSL/SSLeay)', :file => 'LICENSE' }
-  s.source       = { :git => "https://github.com/bruceyibin/OpenSSL.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/bither/OpenSSL.git", :branch => "master", :tag => "#{s.version}" }
 
   s.authors       =  {'Mark J. Cox' => 'mark@openssl.org',
                      'Ralf S. Engelschall' => 'rse@openssl.org',
@@ -25,15 +25,15 @@ Pod::Spec.new do |s|
                      'Tim Hudson' => 'tjh@cryptsoft.com',
                      'Justin Plouffe' => 'plouffe.justin@gmail.com'}
   
-  s.ios.platform          = :ios, '6.0'
-  s.ios.deployment_target = '6.0'
+  s.ios.platform          = :ios
+  s.ios.deployment_target = '7.0'
   s.ios.source_files        = 'include-ios/openssl/**/*.h'
   s.ios.public_header_files = 'include-ios/openssl/**/*.h'
   s.ios.header_dir          = 'openssl'
   s.ios.preserve_paths      = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
   s.ios.vendored_libraries  = 'lib-ios/libcrypto.a', 'lib-ios/libssl.a'
 
-  s.osx.platform          = :osx, '10.9'
+  s.osx.platform          = :osx
   s.osx.deployment_target = '10.8'
   s.osx.source_files        = 'include-osx/openssl/**/*.h'
   s.osx.public_header_files = 'include-osx/openssl/**/*.h'
